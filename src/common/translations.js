@@ -1,0 +1,20 @@
+export const EngAppTranslations = {
+    appTitle: 'The Weather App',
+    searchScreenTitle: 'Get Weather Details',
+    resultScreenTitle: 'Current Weather',
+    searchByTitle: 'Search By:',
+    forcastTitle: '3 Days Forecast:',
+    searchByCity: 'City Name',
+    searchByPostal: 'Postal Code',
+    inputCityPlaceholder: 'Enter City Name',
+    inputPostalPlaceholder: 'Enter Postal Code',
+    searchBtn: 'Search',
+    progressText: 'Please wait...',
+    searchWeatherBtn: 'Search Weather',
+    errorAlertTitle: 'Error',
+    errorAlertMessage: 'Some error occured!',
+    permissionAlertMessage: 'Location feature is either unavailable, or denied/blocked by the user.',
+    cityAlertMessage: 'Please enter City Name',
+    postalAlertMessage: 'Please enter Postal Code',
+    noDataAlertMessage: (searchBy: string) => `Unable to find Weather Details for entered ${searchBy}. Please try again!`
+}
